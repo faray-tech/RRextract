@@ -1,0 +1,40 @@
+# Local backup image path configuration
+pbdpath.txt
+
+# Disk backup & raw binary dumps
+*.pbd
+*.img
+*.bin
+
+# Local, proprietary, and generated extraction directories
+Todo Backup/
+red_files/
+extracted_fs/
+thumbnails/
+scriptsbad/
+
+# Compiled native binaries & MSVC/C/C++ build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.exp
+*.lib
+*.pdb
+*.ilk
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# IDE & OS metadata
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
